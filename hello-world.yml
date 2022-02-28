@@ -5,7 +5,7 @@ resources:
   icon: github
   source:
     uri: https://github.com/K-DurgaPrasadReddy/algo
-    
+
 jobs:
 - name: job
   public: true
@@ -22,4 +22,4 @@ jobs:
         source: { repository: busybox }
       run:
         path: ls
-        args: ["-la", "./concourse-docs-git"]
+        args: ["-la"]
